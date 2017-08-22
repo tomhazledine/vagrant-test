@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Starter Excercises: Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel='stylesheet' href='assets/app.css' type='text/css'/>
+</head>
+<body>
+
+    <form class="popup__wrapper">
+        
+        <div class="popup__header">
+            <h3 class="popup__title">Add Account</h3>
+            <span class="button__action--close"></span>
+        </div>
+        
+        <div class="popup__body">
+            <h2 class="popup__heading">Amazon Web Service</h2>
+            <div class="popup__inputs">
+                <div class="popup__inputgroup clearfix">
+                    <label class="popup__label" for="name">Name</label>
+                    <input class="popup__input" type="text" name="name">
+                </div>
+                <div class="popup__inputgroup clearfix">
+                    <label class="popup__label" for="department">Department</label>
+                    <div class="popup__input popup__selectwrapper">
+                        <select class="popup__input--select" name="department">
+                            <option value="" disabled selected></option>
+                            <option value="1">Department 1</option>
+                            <option value="2">Department 2</option>
+                            <option value="3">Department 3</option>
+                            <option value="4">Department 4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="popup__inputgroup clearfix">
+                    <label class="popup__label" for="access_key_id">Access Key ID</label>
+                    <input class="popup__input" type="text" name="access_key_id">
+                </div>
+                <div class="popup__inputgroup clearfix">
+                    <label class="popup__label" for="secret_access_key">Secret Access Key</label>
+                    <input class="popup__input" type="text" name="secret_access_key">
+                </div>
+            </div>
+        </div>
+        
+        <div class="popup__footer clearfix">
+            <button class="popup__button">Add Account</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
